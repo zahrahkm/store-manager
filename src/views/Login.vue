@@ -32,12 +32,12 @@ export default defineComponent({
 .login {
   background-color: #fdba74;
   min-height: 100vh;
-  display: flex;
+  padding: 1rem;
 }
 .container {
   background-color: white;
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.25);
-  width: 90%;
+  width: 100%;
   padding: 2rem;
   margin: auto;
   display: flex;
