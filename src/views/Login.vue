@@ -50,7 +50,7 @@ export default defineComponent({
 .seperator {
   height: 1px;
   width: 25%;
-  background-color: rgb(180, 180, 180);
+  background-color: rgba(124, 44, 18, 0.3);
   margin-bottom: 15px;
 }
 form {
@@ -71,13 +71,13 @@ form {
 .form-control input {
   font-size: 14px;
   border: none;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #7c2d12;
   padding: 8px;
   margin: 5px 0;
 }
 .form-control input:focus {
   outline: none;
-  border: 1px solid black;
+  border: 1px solid #7c2d12;
 }
 form button {
   font-size: 14px;
