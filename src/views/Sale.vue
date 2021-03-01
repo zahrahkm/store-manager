@@ -30,10 +30,10 @@
             3
           </td>
           <td>
-            11.50
+            5.50
           </td>
           <td>
-            34.50
+            16.50
           </td>
         </tr>
         <tr>
@@ -47,10 +47,10 @@
             2
           </td>
           <td>
-            16.50
+            9.50
           </td>
           <td>
-            33
+            19
           </td>
         </tr>
         <tr>
@@ -58,7 +58,7 @@
           <td><strong>Total</strong></td>
           <td><strong>5</strong></td>
           <td>-</td>
-          <td><strong>67.50</strong></td>
+          <td><strong>35.50</strong></td>
         </tr>
       </table>
     </div>

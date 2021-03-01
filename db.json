@@ -1,0 +1,20 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Excel Picnic Plastic Basket",
+      "brand": "Nakoda",
+      "price": "3.99",
+      "category": "Plastic accessories",
+      "inventory": "5"
+    },
+    {
+      "id": "2",
+      "name": "11 Inch Nonstick Frying Pan",
+      "brand": "Utopia",
+      "price": "16.99",
+      "category": "Metal dishes",
+      "inventory": "3"
+    }
+  ]
+}
