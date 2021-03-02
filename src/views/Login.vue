@@ -1,7 +1,7 @@
 <template>
   <div class="login">
     <div class="container">
-      <img src="../assets/images/online-store.png" alt="online-store" />
+      <img src="../assets/images/online-shopping.svg" alt="online-store" />
       <div class="seperator"></div>
       <form>
         <h1>Sign in</h1>
@@ -28,15 +28,16 @@ export default defineComponent({
 });
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
+@import "../assets/scss/_variables.scss";
 .login {
-  background-color: #fdba74;
+  background-color: $main;
   min-height: 100vh;
   padding: 1rem;
 }
 .container {
-  background-color: white;
-  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.25);
+  background-color: $light-shades;
+  box-shadow: 2px 2px 10px rgba($dark-shades, 0.25);
   width: 100%;
   padding: 2rem;
   display: flex;
@@ -49,52 +50,49 @@ export default defineComponent({
 .seperator {
   height: 1px;
   width: 25%;
-  background-color: rgba(124, 44, 18, 0.3);
+  background-color: rgba($dark-shades, 0.3);
+  margin: 1.5rem;
 }
 form {
   width: 100%;
   display: flex;
   flex-direction: column;
-  margin-top: 1rem;
 }
 form h1 {
   text-align: center;
-  margin-bottom: 10px;
-  color: #c2410c;
-  font-weight: 800;
+  margin-bottom: 1rem;
 }
 .form-control {
-  font-size: 14px;
-  margin-top: 10px;
   display: flex;
   flex-direction: column;
+  margin-bottom: 0.75rem;
 }
 .form-control label {
-  font-weight: bold;
+  margin-bottom: 0.25rem;
 }
 .form-control input {
-  font-size: 14px;
-  border: none;
-  border-bottom: 1px solid #7c2d12;
-  padding: 8px;
-  margin: 5px 0;
+  font-size: 0.875rem;
+  border: 1px solid transparent;
+  background: transparent;
+  border-bottom: 1px solid $dark-shades;
+  padding: 0.5rem;
+  outline: none;
 }
 .form-control input:focus {
-  outline: none;
-  border: 1px solid #7c2d12;
+  border: 1px solid $dark-shades;
 }
 form button {
-  font-size: 14px;
-  font-weight: bold;
+  outline: none;
+  font-size: 1rem;
   border: none;
-  background-color: #fdba74;
-  padding: 12px;
-  margin-top: 30px;
+  background-color: $main;
+  padding: 0.75rem;
+  margin-top: 2rem;
   cursor: pointer;
   transition-duration: 0.1s;
 }
 form button:hover {
-  background-color: #fed7aa;
+  background-color: rgba($main, 0.8);
 }
 
 @media (min-width: 640px) {
@@ -112,23 +110,23 @@ form button:hover {
     flex-direction: row;
   }
   .container img {
-    width: 42%;
-  }
-  form {
-    margin-top: 0;
-  }
-  form h1 {
-    text-align: left;
+    width: 50%;
   }
   .seperator {
     height: 5rem;
     width: 1px;
-    margin: 0 2rem;
+    margin: 1.5rem;
+  }
+  form h1 {
+    text-align: left;
+  }
+  form button {
+    width: 40%;
   }
 }
 @media (min-width: 1280px) {
   .login {
-    padding: 4rem 16rem;
+    padding: 4rem 18rem;
   }
 }
 </style>
