@@ -1,7 +1,7 @@
 <template>
   <div class="login">
     <div class="container">
-      <img src="../assets/images/online-shopping.svg" alt="online-store" />
+      <img src="../assets/images/online-shopping.svg" alt="online-shopping" />
       <div class="seperator"></div>
       <form>
         <h1>Sign in</h1>
