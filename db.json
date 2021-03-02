@@ -2,19 +2,38 @@
   "products": [
     {
       "id": "1",
-      "name": "Excel Picnic Plastic Basket",
-      "brand": "Nakoda",
-      "price": "3.99",
-      "category": "Plastic accessories",
-      "inventory": "5"
+      "title": "Michael Kors Men's Slim Runway Stainless Steel Quartz Watch",
+      "inventory": "5",
+      "buy-price": "80",
+      "sell-price": "118.94"
     },
     {
       "id": "2",
-      "name": "11 Inch Nonstick Frying Pan",
-      "brand": "Utopia",
-      "price": "16.99",
-      "category": "Metal dishes",
-      "inventory": "3"
+      "title": "Willful Smart Watch",
+      "inventory": "3",
+      "buy-price": "20",
+      "sell-price": "35.99"
+    },
+    {
+      "id": "3",
+      "title": "Fossil Gen 5 Carlyle Stainless Steel Touchscreen Smartwatch",
+      "inventory": "4",
+      "buy-price": "140",
+      "sell-price": "199"
+    },
+    {
+      "id": "4",
+      "title": "Timex Men's Easy Reader Leather Strap 38mm Watch",
+      "inventory": "7",
+      "buy-price": "19",
+      "sell-price": "33.82"
+    },
+    {
+      "id": "5",
+      "title": "Michael Kors Pyper Three-Hand Stainless Steel Watch",
+      "inventory": "2",
+      "buy-price": "97.50",
+      "sell-price": "127.50"
     }
   ]
 }
